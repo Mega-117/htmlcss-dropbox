@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*******************************
+        Layout
+*******************************/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+[class*="col"]{
+    float: left;
+}
+
+.conteriner-big{
+    width: 1367px;
+}
+
+.conteiner-small{
+    width: 1010px;
+}
+
+.col_1_9{
+    width: calc(100% / 9);
+}
+
+.col_2_9{
+    width: calc(100% / 9 *2);
+}
+
+.col_3_9{
+    width: calc(100% / 9 *2);
+}
+
+.col_4_9{
+    width: calc(100% / 9 *2);
+}
+
+.col_5_9{
+    width: calc(100% / 9 *2);
+}
+
+.col_6_9{
+    width: calc(100% /9 * 6);
+}
+
+h1{
+    font-size: 77px;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 16px;
+}
+
+.small{
+    font-size: 14px;
+}
+
+/******************************
+        elementi-comuni
+******************************/
+.btn{
+    padding: 10px;
+}
+
+
