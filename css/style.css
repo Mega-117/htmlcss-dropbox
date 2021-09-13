@@ -98,7 +98,6 @@ label{
 
 a{
     color: #1970ff;
-    font-weight: bold;
 }
 /******************************
         elementi-comuni
@@ -120,6 +119,8 @@ nav{
     padding: 0 10px;
     width: 100%;
     z-index: 2;
+    border-bottom: 1px solid;
+    box-shadow: 1px 1px;
 }
 
 .logo-conteiner{
@@ -236,6 +237,7 @@ li {
 
 .buy-link{
     padding: 45px 0;
+    font-weight: bold;
 }
 
 .info-plane-hr{
@@ -265,5 +267,5 @@ li {
     display: inline-block;
     width: 90%;
     vertical-align: top;
-    padding-left: 8px;
+    padding-left: 3px;
 }
