@@ -26,13 +26,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* [class*="col"]{
+[class*="col"]{
     float: left;
-} */
+} 
 
 .conteiner-big{
     width: 1367px;
     margin: auto;
+    margin-top: 20px;
+    transform: translate(0, 80px);
 }
 
 .conteiner-small{
@@ -48,15 +50,15 @@ body{
 }
 
 .col_3_9{
-    width: calc(100% / 9 *2);
+    width: calc(100% / 9 *3);
 }
 
 .col_4_9{
-    width: calc(100% / 9 *2);
+    width: calc(100% / 9 *4);
 }
 
 .col_5_9{
-    width: calc(100% / 9 *2);
+    width: calc(100% / 9 *5);
 }
 
 .col_6_9{
@@ -91,16 +93,19 @@ h5{
     padding: 5px 20px;
     background-color: #0061ff;
     color: white;
+    text-decoration: none;
 }
 
 
 /****************************/
 
 nav{
-    background-color: aquamarine;
-    display: fixed;
+    background-color: white;
+    position: fixed;
+    top: 0;
     padding: 0 10px;
     width: 100%;
+    z-index: 2;
 }
 
 .logo-conteiner{
@@ -120,32 +125,45 @@ nav{
 
 .main-menu>li{
     display: inline-block;
-    line-height: 50px;
+    line-height: 60px;
     padding: 0 10px;
 }
-
-a{
-    color:black;
+.main-menu li a{
     text-decoration: none;
+    color:black;
+}
+
+
+.main-menu li a.btn{
+    color: white;
 }
 
 
 .hero{
     background-color: #b4d0e7;
 }
+
+.hero-title{
+    padding-bottom: 50px;
+}
+
 .hero-text{
-    display: inline-block;
+    padding-right: 60px;
+}
+
+.hero-btn{
+    padding: 10px 20px
+}
+
+.hero-btn-conteiner{
+    margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .download-ico{
-    display: block;
+    transform: translate(0, 40px);
+    font-size: 50px;
 }
-
-.hero-img{
-}
-
-
-
 
 main{
     background-color: rebeccapurple;
