@@ -18,6 +18,10 @@
     float: right;
 }
 
+.float-left{
+    float: left;
+}
+
 
 /*******************************
         Layout
@@ -31,7 +35,7 @@ body{
 } 
 
 .conteiner-big{
-    width: 1367px;
+    width: 1337px;
     margin: auto;
     margin-top: 20px;
     transform: translate(0, 80px);
@@ -39,6 +43,8 @@ body{
 
 .conteiner-small{
     width: 1010px;
+    margin: auto;
+    padding-top: 200px;
 }
 
 .col_1_9{
@@ -86,6 +92,14 @@ h5{
     font-size: 14px;
 }
 
+label{
+    padding: 10px;
+}
+
+a{
+    color: #1970ff;
+    font-weight: bold;
+}
 /******************************
         elementi-comuni
 ******************************/
@@ -165,7 +179,83 @@ nav{
     font-size: 50px;
 }
 
-main{
-    background-color: rebeccapurple;
-    height: 200px;
+.download-ico a{
+    color: black;
+}
+
+/******************************************
+            section 1
+******************************************/
+
+.col-elements{
+    width: 90%;
+}
+
+
+.title-section{
+    padding-bottom:80px;
+}
+
+.row{
+    padding: 50px 0;
+    width: 100%;
+}
+
+.name-option{
+    border: 1px solid #d0d0d3;
+    text-align: center;
+    padding:10px;
+}
+
+.info-plan-conteiner{
+    border: 1px solid #d0d0d3;
+    padding: 10px 20px;
+    height: 100%;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.info-plan-title{
+    padding-bottom: 20px;;
+}
+
+.info-plan-price{
+    padding-bottom: 5px;
+}
+
+.info-plan-detail{
+    padding-bottom: 50px;
+}
+
+.info-plan-2>li{
+    padding-bottom: 45px;
+}
+
+.buy-link{
+    padding: 45px 0;
+}
+
+.info-plane-hr{
+    width: 15%;
+    border: 1px solid #d0d0d3;
+    transform: translate(0, 30px);
+}
+
+.info-plan-3{
+    padding-top: 40px;
+}
+
+.info-plan-3>li{
+    padding-bottom: 30px;
+}
+
+.info-plan-3 li i{
+    color: #1970ff;
+}
+
+.marker{
+    display: inline;
 }
