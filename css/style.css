@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+/*******************************
+        utility
+*******************************/
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-right{
+    float: right;
+}
+
 
 /*******************************
         Layout
@@ -77,3 +91,33 @@ h5{
 }
 
 
+/****************************/
+
+nav{
+    background-color: aquamarine;
+}
+
+.logo-conteiner{
+    display:inline-block;
+}
+
+.menu-logo{
+    vertical-align: middle;
+    transform: translate(0, -3px);
+    padding-right: 10px;
+}
+
+.main-menu{
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu>li{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.main-menu li a{
+    text-decoration: none;
+}
