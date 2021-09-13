@@ -256,6 +256,14 @@ li {
     color: #1970ff;
 }
 
-.marker{
-    display: inline;
+
+.info-plan-marker-list{
+    display: inline-block;
+}
+
+.info-plan-text-list{
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    padding-left: 8px;
 }
