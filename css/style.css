@@ -87,7 +87,9 @@ h5{
         elementi-comuni
 ******************************/
 .btn{
-    padding: 10px;
+    padding: 5px 20px;
+    background-color: #0061ff;
+    color: white;
 }
 
 
@@ -95,6 +97,8 @@ h5{
 
 nav{
     background-color: aquamarine;
+    display: fixed;
+    padding: 0 10px;
 }
 
 .logo-conteiner{
@@ -118,6 +122,7 @@ nav{
     padding: 0 10px;
 }
 
-.main-menu li a{
+a{
+    color:black;
     text-decoration: none;
 }
