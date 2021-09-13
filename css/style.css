@@ -26,12 +26,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-[class*="col"]{
+/* [class*="col"]{
     float: left;
-}
+} */
 
-.conteriner-big{
+.conteiner-big{
     width: 1367px;
+    margin: auto;
 }
 
 .conteiner-small{
@@ -79,7 +80,7 @@ h5{
     font-size: 16px;
 }
 
-.small{
+.text-small{
     font-size: 14px;
 }
 
@@ -99,6 +100,7 @@ nav{
     background-color: aquamarine;
     display: fixed;
     padding: 0 10px;
+    width: 100%;
 }
 
 .logo-conteiner{
@@ -125,4 +127,27 @@ nav{
 a{
     color:black;
     text-decoration: none;
+}
+
+
+.hero{
+    background-color: #b4d0e7;
+}
+.hero-text{
+    display: inline-block;
+}
+
+.download-ico{
+    display: block;
+}
+
+.hero-img{
+}
+
+
+
+
+main{
+    background-color: rebeccapurple;
+    height: 200px;
 }
