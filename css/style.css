@@ -8,7 +8,7 @@
         utility
 *******************************/
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -144,7 +144,7 @@ nav{
     padding: 0 10px;
     width: 100%;
     z-index: 2;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #d0d0d3;
     box-shadow: 1px 1px;
 }
 
@@ -243,6 +243,7 @@ li {
     list-style-type: none;
 }
 
+.section-3-title,
 .info-plan-title{
     padding-bottom: 20px;;
 }
@@ -258,10 +259,11 @@ li {
 .info-plan-2>li{
     padding-bottom: 45px;
 }
-
+.link-client,
 .buy-link{
     padding: 45px 0;
     font-weight: bold;
+    display: block;
 }
 
 .info-plane-hr{
@@ -330,3 +332,54 @@ li {
 /******************************************
             section 4
 ******************************************/
+
+.section-4-conteiner{
+    padding: 75px 0;
+}
+
+.card{
+    padding: 20px;
+}
+
+.card>img{
+    width: 100%;
+}
+
+.square-conteiner{
+    background-color: red;
+
+     height: 30vw;
+}
+
+.square-conteiner::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.square-conteiner>div{
+    min-height: 200px;
+    border: 1px solid;
+}
+
+.text-section-6{
+    width: 40%;
+}
+
+.partner-square{
+    width: 30%;
+    
+}
+
+.partner-square::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.square{
+    width: 50%;
+    height: calc(30vw / 2);
+    border: 1px solid;
+}
