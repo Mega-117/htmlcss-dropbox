@@ -30,9 +30,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-[class*="col"]{
-    float: left;
-} 
+
 
 .conteiner-big{
     width: 1337px;
@@ -71,6 +69,16 @@ body{
     width: calc(100% /9 * 6);
 }
 
+.row{
+    padding: 50px 0;
+    width: 100%;
+}
+
+
+/******************************
+elementi-comuni
+******************************/
+
 h1{
     font-size: 77px;
 }
@@ -99,15 +107,26 @@ label{
 a{
     color: #1970ff;
 }
-/******************************
-        elementi-comuni
-******************************/
+
 .btn{
     padding: 5px 20px;
     background-color: #0061ff;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
+
+.btn-medium{
+    text-align: center;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.btn-col{
+    width: 100%;
+    display: block;
+}
+
 
 
 /****************************/
@@ -197,10 +216,6 @@ nav{
     padding-bottom:80px;
 }
 
-.row{
-    padding: 50px 0;
-    width: 100%;
-}
 
 .name-option{
     border: 1px solid #d0d0d3;
@@ -210,9 +225,12 @@ nav{
 
 .info-plan-conteiner{
     border: 1px solid #d0d0d3;
-    padding: 10px 20px;
-    height: 100%;
+    padding: 25px 20px;
+    width: 100%;
+}
 
+.height-col{
+    min-height: 1150px;
 }
 
 li {
@@ -269,3 +287,24 @@ li {
     vertical-align: top;
     padding-left: 3px;
 }
+
+/******************************************
+            section 2
+******************************************/
+
+.detail-section-2{
+    padding-bottom: 25px;
+}
+
+.section-2-block-1{
+    width: 75%;
+}
+
+.section-2-block-2{
+    width: 25%;
+}
+
+
+/******************************************
+            section 3
+******************************************/
