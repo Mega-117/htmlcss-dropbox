@@ -116,6 +116,12 @@ a{
     text-align: center;
 }
 
+.btn-white{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+
 .btn-medium{
     text-align: center;
     font-size: 14px;
@@ -292,6 +298,7 @@ li {
             section 2
 ******************************************/
 
+.detail-section-3,
 .detail-section-2{
     padding-bottom: 25px;
 }
@@ -307,4 +314,19 @@ li {
 
 /******************************************
             section 3
+******************************************/
+.partner{
+    padding-top: 100px;
+}
+
+.partner>div{
+    display: inline-block;
+}
+
+.text-section-3{
+    padding-left: 50px;
+}
+
+/******************************************
+            section 4
 ******************************************/
