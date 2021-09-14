@@ -22,6 +22,36 @@
     float: left;
 }
 
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-dark-red{
+    background-color: #61082b;
+}
+
+.bg-azure{
+    background-color: #0093ce;
+}
+
+.bg-red{
+    background-color: #ff1c1c;
+}
+
+.bg-light-red{
+    background-color: #d5001f;
+}
+
+.bg-light-grey{
+    background-color: #b4d0e7;
+}
+
+.bg-light-dark-blue{
+    background-color: #0d2481;
+}
+.bg-light-yellow{
+    background-color: #ffd830;
+}
 
 /*******************************
         Layout
@@ -346,8 +376,6 @@ li {
 }
 
 .square-conteiner{
-    background-color: red;
-
      height: 30vw;
 }
 
@@ -358,13 +386,16 @@ li {
     
 }
 
-.square-conteiner>div{
-    min-height: 200px;
-    border: 1px solid;
-}
-
 .text-section-6{
     width: 40%;
+    height: 100%;
+    background-color: #f5f5f5;
+    padding: 90px 40px;
+}
+
+.text-section-6>img{
+    width: 30%;
+
 }
 
 .partner-square{
@@ -381,5 +412,27 @@ li {
 .square{
     width: 50%;
     height: calc(30vw / 2);
-    border: 1px solid;
+    position:relative;
+}
+
+.hr-section-6{
+    width: 20%;
+    color: #d0d0d3;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+
+.square>img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+
+}
+
+.section-7{
+    background-color: #b4d0e7;
 }
