@@ -66,13 +66,12 @@ body{
     width: 1337px;
     margin: auto;
     margin-top: 20px;
-    transform: translate(0, 80px);
+    transform: translate(0, 60px);
 }
 
 .conteiner-small{
     width: 1010px;
     margin: auto;
-    padding-top: 200px;
 }
 
 .col_1_9{
@@ -163,6 +162,10 @@ a{
     display: block;
 }
 
+.btn-full-white{
+    color: black;
+    background-color: white;
+}
 
 
 /****************************/
@@ -242,6 +245,10 @@ nav{
 /******************************************
             section 1
 ******************************************/
+
+.business-option{
+    padding-top: 200px;
+}
 
 .col-elements{
     width: 90%;
@@ -375,6 +382,10 @@ li {
     width: 100%;
 }
 
+/******************************************
+            section 6
+******************************************/
+
 .square-conteiner{
      height: 30vw;
 }
@@ -433,6 +444,89 @@ li {
 
 }
 
+/******************************************
+            section 7
+******************************************/
+
 .section-7{
     background-color: #b4d0e7;
+}
+
+.btn-section-7{
+    transform: translate(0px, 25px);
+    text-align: right;
+}
+
+
+.section-7>div{
+    padding: 100px 0;
+}
+
+/******************************************
+            section 8
+******************************************/
+
+.section-8-list{
+    padding: 50px 0;
+}
+
+.ico-section-8{
+    transform: translate(300px, 0px);
+    font-size: 20px;    
+}
+
+.item-list-section-8{
+    line-height: 80px;
+}
+
+.title-section-8{
+    padding-bottom:30px;
+}
+
+.item-list-section-8>hr{
+    border-top: 1px solid #dcdcde;
+}
+
+
+/******************************************
+            footer
+******************************************/
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+.footer-conteiner{
+    width: 80%;
+    margin:auto;
+    padding: 50px 0;
+}
+
+.footer-top{
+}
+
+.title-list{
+    font-size: 18px;
+    line-height: 70px;
+}
+
+.footer-list-item{
+    line-height: 30px;
+}
+
+.footer-list{
+    display: inline-block;
+    width: 18%;
+}
+
+.hr-footer{
+    width: 10%;
+    margin-top: 50px;
+    border-top: 1px solid #999999;
+    margin-bottom: 20px;
+}
+
+.footer-bottom{
+    color:#999999;
 }
