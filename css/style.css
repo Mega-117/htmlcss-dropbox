@@ -100,7 +100,8 @@ body{
 
 .row{
     padding: 50px 0;
-    width: 100%;
+    margin-right: -15px ;
+    margin-left: -15px;
 }
 
 
@@ -110,14 +111,22 @@ elementi-comuni
 
 h1{
     font-size: 77px;
+    padding-bottom: 50px;
 }
 
 h2{
     font-size: 40px;
+    padding-bottom: 50px
 }
+
 h3{
     font-size: 25px;
 }
+
+.h3-title{
+    padding-bottom: 20px;
+}
+
 h4{
     font-size: 16px;
 }
@@ -145,6 +154,10 @@ a{
     text-align: center;
 }
 
+.btn:hover{
+    filter: opacity(0.75);
+}
+
 .btn-white{
     background-color: white;
     border: 1px solid;
@@ -167,6 +180,9 @@ a{
     background-color: white;
 }
 
+.section-conteiner{
+    padding-bottom: 150px;
+}
 
 /****************************/
 
@@ -216,9 +232,7 @@ nav{
     background-color: #b4d0e7;
 }
 
-.hero-title{
-    padding-bottom: 50px;
-}
+
 
 .hero-text{
     padding-right: 60px;
@@ -234,31 +248,40 @@ nav{
 }
 
 .download-ico{
-    transform: translate(0, 40px);
+    transform: translate(0,10px);
     font-size: 50px;
+    animation: ico-jump 2s infinite linear;
 }
 
 .download-ico a{
     color: black;
 }
 
+@keyframes ico-jump{
+    0%{
+        transform: translate(0, 10px);
+    }
+    50%{
+        transform: translate(0, 40px);
+    }
+    100%{
+        transform: translate(0, 10px);
+    }
+}
+
 /******************************************
-            section 1
+section 1
 ******************************************/
 
-.business-option{
+.business-option-row{
     padding-top: 200px;
 }
 
-.col-elements{
-    width: 90%;
+.col-business-option{
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
-
-
-.title-section{
-    padding-bottom:80px;
-}
-
 
 .name-option{
     border: 1px solid #d0d0d3;
@@ -280,9 +303,8 @@ li {
     list-style-type: none;
 }
 
-.section-3-title,
-.info-plan-title{
-    padding-bottom: 20px;;
+.section-3-title{
+    padding-bottom: 20px;
 }
 
 .info-plan-price{
@@ -296,7 +318,7 @@ li {
 .info-plan-2>li{
     padding-bottom: 45px;
 }
-.link-client,
+
 .buy-link{
     padding: 45px 0;
     font-weight: bold;
@@ -350,17 +372,10 @@ li {
     width: 25%;
 }
 
-
 /******************************************
             section 3
 ******************************************/
-.partner{
-    padding-top: 100px;
-}
 
-.partner>div{
-    display: inline-block;
-}
 
 .text-section-3{
     padding-left: 50px;
@@ -370,8 +385,10 @@ li {
             section 4
 ******************************************/
 
-.section-4-conteiner{
-    padding: 75px 0;
+
+
+.db-busioness{
+    padding:0;
 }
 
 .card{
@@ -383,11 +400,19 @@ li {
 }
 
 /******************************************
+            section 5
+******************************************/
+
+.section-5-conteiner{
+    padding-bottom: 50px;
+}
+
+/******************************************
             section 6
 ******************************************/
 
 .square-conteiner{
-     height: 30vw;
+    height: 30vw;
 }
 
 .square-conteiner::after{
@@ -447,6 +472,9 @@ li {
 /******************************************
             section 7
 ******************************************/
+.title-section-7{
+    padding-bottom: 0;
+}
 
 .section-7{
     background-color: #b4d0e7;
@@ -503,8 +531,6 @@ footer{
     padding: 50px 0;
 }
 
-.footer-top{
-}
 
 .title-list{
     font-size: 18px;
@@ -516,7 +542,6 @@ footer{
 }
 
 .footer-list{
-    display: inline-block;
     width: 18%;
 }
 
