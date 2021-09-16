@@ -68,6 +68,9 @@ body{
 .conteiner-big{
     width: 1337px;
     margin: auto;
+}
+
+.conteiner-big-layout{
     margin-top: 20px;
     transform: translate(0, 60px);
 }
@@ -170,6 +173,12 @@ label{
 a{
     color: #1970ff;
 }
+    /* link animation */
+a:hover{
+    text-decoration: none;
+}
+
+
 
 .btn{
     padding: 5px 20px;
@@ -198,6 +207,7 @@ a{
 .btn-col{
     width: 100%;
     display: block;
+    margin-top:20px;
 }
 
 .btn-full-white{
@@ -344,9 +354,7 @@ li {
     list-style-type: none;
 }
 
-.section-3-title{
-    padding-bottom: 20px;
-}
+
 
 .info-plan-price{
     padding-bottom: 5px;
@@ -357,11 +365,11 @@ li {
 }
 
 .info-plan-2>li{
-    padding-bottom: 45px;
+    padding-bottom: 20px;
 }
 
 .buy-link{
-    padding: 45px 0;
+    margin: 40px 0;
     font-weight: bold;
     display: block;
 }
@@ -369,7 +377,7 @@ li {
 .info-plane-hr{
     width: 15%;
     border: 1px solid #d0d0d3;
-    transform: translate(0, 30px);
+    transform: translate(0, 40px);
 }
 
 .info-plan-3{
@@ -490,6 +498,8 @@ li {
     width: 50%;
     height: calc(30vw / 2);
     position:relative;
+    border-color: rgba(255, 255, 255, 0);
+    transition: border-color 0.5s;
 }
 
 .square:hover{
@@ -545,7 +555,8 @@ li {
 }
 
 .section-8-list-item-question{
-    line-height: 80px;
+    padding: 30px 0;
+    position:relative;
 }
 
 
@@ -556,6 +567,13 @@ li {
 
 .section-8-list-item{
     border-bottom: 1px solid;
+}
+
+.section-8-ico{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 
 /******************************************
@@ -578,16 +596,15 @@ li {
     overflow: auto;
 }
 
-.section-8-ico{
-    transform: translate(300px, 0px) rotate(0deg);
-    font-size: 20px;    
+ .arow-transition{
+    transform: rotate(0deg);
     transition: transform 0.5s;
 }
 
-.section-8-list-item:focus .section-8-ico{
-    transform: translate(300px, 0px) rotate(-180deg);
+.section-8-list-item:focus .arow-transition{
+    transform: rotate(-180deg);
 }
-
+ 
 /******************************************
             footer
 ******************************************/
@@ -606,6 +623,11 @@ li {
 .language-hide{
     display: block;
 }
+
+.language:focus .arow-transition{
+    transform: rotate(180deg);
+}
+
 
 
 footer{
