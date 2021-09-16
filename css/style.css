@@ -550,37 +550,45 @@ li {
     line-height: 80px;
 }
 
-.ico-section-8{
-    transform: translate(300px, 0px);
-    font-size: 20px;    
-}
 
-.title-section-8{
+.section-8-title{
     padding-bottom:30px;
     border-bottom: 1px solid;
 }
 
-.item-list-section-8>hr{
-    border-top: 1px solid #dcdcde;
-}
 .section-8-list-item{
     border-bottom: 1px solid;
 }
 
+/******************************************
+section 8 transition
+******************************************/
+
+
 .section-8-list-item-accordion{
-    padding-bottom: 20px;
+    margin-bottom: 0px;
     padding-right: 65px;
+    height: 0px;
+    transition: height 0.4s, dispaly 1s;
+    overflow: hidden;
 }
 
 
 .section-8-list-item:focus .section-8-list-item-accordion{
-    display: block;
+    height: 100px;
+    overflow: auto;
 }
 
-.section-8-list-item-accordion{
-    display: none;
+.section-8-ico{
+    transform: translate(300px, 0px) rotate(0deg);
+    font-size: 20px;    
+    transition: transform 0.5s;
 }
 
+.section-8-list-item:focus .section-8-ico{
+    transform: translate(300px, 0px) rotate(-180deg);
+
+}
 
 /******************************************
             footer
