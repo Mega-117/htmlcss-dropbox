@@ -65,8 +65,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
 .conteiner-big{
     width: 1337px;
     margin: auto;
@@ -561,7 +559,7 @@ li {
 }
 
 /******************************************
-section 8 transition
+        section 8 transition
 ******************************************/
 
 
@@ -571,6 +569,7 @@ section 8 transition
     height: 0px;
     transition: height 0.4s, dispaly 1s;
     overflow: hidden;
+    display: block;
 }
 
 
@@ -587,12 +586,27 @@ section 8 transition
 
 .section-8-list-item:focus .section-8-ico{
     transform: translate(300px, 0px) rotate(-180deg);
-
 }
 
 /******************************************
             footer
 ******************************************/
+.language-hide{
+    transform: translate(20px, 0px);
+    line-height: 31px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+.language:focus .language-hide{
+    height: 100px;
+}
+
+.language-hide{
+    display: block;
+}
+
 
 footer{
     color: white;
